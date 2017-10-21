@@ -1,0 +1,39 @@
+{
+  "name": "myportreact2",
+  "version": "0.0.1",
+  "description": "Tutorial do meu primeiro contato com a biblioteca react , empacotador webpack e compilador babel.",
+  "main": "App.js",
+  "scripts": {
+    "start": "concurrently --kill-others \"webpack -d --watch\" \"webpack-dev-server --hot --inline --progress --colors\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcavalcantef/myPortReact.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "babel",
+    "npm",
+    "node"
+  ],
+  "author": "Jonathas B. Cavalcante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcavalcantef/myPortReact/issues"
+  },
+  "homepage": "https://github.com/jcavalcantef/myPortReact#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "concurrently": "^3.5.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
