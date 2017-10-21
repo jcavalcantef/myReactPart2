@@ -155,19 +155,18 @@ npm init
  ```
 
     Um novo arquivo bundle.js deverá ser gerado após o comando
-  
-     ```  ./node_modules/.bin/webpack -d --watch ```
+    
+     ./node_modules/.bin/webpack -d --watch   
 
     Em outro terminal levante o servidor com o comando:
-      ```  ./node_modules/.bin/webpack-dev-server --hot --inline --progress --colors    ```
-
-    Algo deveria ser renderizado na url   (like http://localhost:3333/) 
-    
-
+     
+      ./node_modules/.bin/webpack-dev-server --hot --inline --progress --colors   
+      
+    Algo deveria ser renderizado na url   http://localhost:3333/
 
   # 5. Create Script Start With NPM
 
-    npm i concurrently --save-dev
+ ``` npm i concurrently --save-dev ```
 
     No arquivo package.json imponha:
 
