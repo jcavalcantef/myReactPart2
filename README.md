@@ -175,11 +175,13 @@ npm init
       "start": "concurrently --kill-others \"webpack -d --watch\" \"webpack-dev-server --hot --inline --progress --colors\""
     }
  ```
-    Dessa forma o empacotador(webpack) e o servidor (webpack-dev-server) serão iniciados simultaneamente com o comando:
-
-  ``` npm start  ```
-
-    
+ 
+ Dessa forma o empacotador(webpack) e o servidor (webpack-dev-server) serão iniciados simultaneamente com o comando:
+ 
+ ``` 
+ npm start 
+ ```
+ 
 fontes:
 https://willianjusten.com.br/configurando-o-webpack-para-rodar-react-e-es6/
 http://tszekely.github.io/react-learning-module/
