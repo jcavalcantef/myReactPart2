@@ -1,10 +1,10 @@
-# Tutorial do meu primeiro contato com a biblioteca react , webpack(empacotador)  e babel (compilador).
-## Como configurar um ambiente de desenvolvimento com react, webpack, babel, usando npm.
-### O projeto está vazio pois o objetivo é somente  aprender o passo a passo de como configurar um ambiente de desenvolvimento WEB utilizando as tecnologias citadas acima.
-## Necessário instalar o npm (gerenciador de pacotes) via nodeJS.
-## Para iniciar o tutorial do zero será necessário apagar a pasta node_modules e realizar a instalação manual de cada pacote
-## A pasta node_modules surgirá conforme forem feitas as intalações via npm install
-### A pasta raiz possui a seguinte árvore de diretório
+# Tutorial de Como configurar um ambiente de desenvolvimento com react, webpack (empacotador) , babel (compilador), usando npm.
+O projeto está vazio pois o objetivo é somente  aprender o passo a passo de como configurar um ambiente de desenvolvimento WEB utilizando as tecnologias citadas acima.
+Necessário instalar o npm (gerenciador de pacotes) via nodeJS.
+Para iniciar o tutorial do zero será necessário apagar a pasta node_modules e realizar a instalação manual de cada pacote
+A pasta node_modules surgirá conforme forem feitas as intalações via npm install.
+
+A pasta raiz possui a seguinte árvore de diretório
 ```
   -app
   --App.js            (Criado manualmente)
